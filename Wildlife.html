@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Change - Amazon Wildlife</title>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <h1>Climate Change</h1>
+</head>
+    <body id="photo">
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+    <h2>Amazon Wildlife</h2>
+<p>The Amazon Rainforest is home to a bewildering array of wildlife, including macaws, toucans, tyrant flycatchers, capybaras, tapirs, sloths, squirrel monkeys, red howler monkeys, jaguars, caimans, anacondas, tarantulas, leaf-cutter ants, scarlet ibis, and black skimmers.
+</p>
+<p>The Amazon is home to more species of plants and animals than any other terrestrial ecosystem on the planet - perhaps 30 percent of the world's species are found there. Its biodiversity the term used to describe biological richness is astounding: a single bush in the Amazon may have more species of ants than the entire British Isles, while a lone hectare of forest (two-and-a-half acres) may have more than 500 species of trees and a single park can have more than 1,400 butterfly species.</p>
+<h2>Dangers to the Amazon Wildlife:</h2>
+<p>Deforestation, climate change, illegal hunting and environmental contamination are constant threats to the livelihoods and habitats of many species of Amazon animals that rely on the forests and ecosystems surrounding the Amazon River to survive and thrive.</p>
+    <h3>Most endangered animals in the amazon rainforest:</h3>
+    <table>
+        <tr>
+            <td><b>1. Amazion Jaguar</b></td>
+            <tr>
+            <td>- The Jaguar is one of the endangered species of Amazon Rainforest Wildlife. The jaguar is the largest feline in South America and in the Amazon, there are, unfortunately, currently many specimens. With a length (including tail) of up to 2.5 meters it weighs up to 120 kilos. He is a good swimmer, has nocturnal habits and is a solitary animal.
+                 
+</td>
+    </tr>
+    <tr>
+            <td><b>2. Golden Lion Tamarin</b></td>
+        </tr>
+      <tr>
+            <td>- It consists of a species of endemic monkey of Brazil, its weight is of more or less 800 grams. The popular name of the species comes from its mane that has a very strong orange hue. Appears in the list of species that have a great risk of extinction.
+          </td> 
+    </tr>
+    
+        <tr>
+            <td><b>3. Giant Otters</b></td>
+        </tr>
+     <tr>
+            <td>- Among the cutest animals in the Amazon Rainforest Wildlife, giant otters can grow up to 1.7 metres long and can be found in the waterways that run through the jungle. Thanks to its resistant whiskers and a sharp eye, it easily identifies the movements of prey in the water.
+         </td> 
+<tr>
+    <td><b>4. Hyacinth Macaw</b></td>
+    </tr>
+         <tr>
+            <td>- is an astonishingly beautiful bird, with feathers in rich blues and green. The main threat to the survival of this magnificent bird is the illegal pet trade. Unfortunately, there is a market for these birds due to their splendour and this is reducing the numbers found in the wild.
+         </td> 
+    </tr>
+    </table>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/jaguar.jpg" style="width:100%">
+  </div>  
+
+  <div class="mySlides fade">
+    <img src="img/monkey.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/otter.jpg" style="width:100%">
+  </div>
+<div class="mySlides fade">
+    <img src="img/bird.jpg" style="width:100%">
+  </div>
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<html>
+<head>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <h1>Climate Change</h1>
+    </head>
+<body>
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+	
+	<h1>Effects on insects</h1>
+	
+	<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/butterfly.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/Bees.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="img/fly.jpeg" style="width:100%">
+  </div>
+  
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+
+<h2>Butterflies</h2>
+<p>Butterflies are one of the instects at most risk due to the ever changing conditions caused by
+Climate Change. A number of traits make them vulnerable to a changing climate. Like most butterflies, 
+monarchs in particular, are highly sensitive to weather and climate: They depend on environmental cues 
+(temperature) to trigger reproduction, migration, and hibernation. By the climate changing from what they 
+think it should be, this will lead to delayed process which may be disasterous or even completly skipping 
+processes. </p>
+<h2>Bees</h2>
+<p>Bees are without a doubt the most important instect on the planet. Without bees flowers and most plants would 
+die out, which would lead to most things following in that. Climate change has effected them in the same way as 
+the butterflies. Bees use tempreature to judge when to do things like pollinate. If they are not in sync with plants, 
+The plants will die out as the bees were unaware it was time to pollinate. Climate change is also causing habitat 
+loss as bees fail to migrate to cooler areas and establish new hives. A recent study on bumblebee migrations found 
+that bee territories have shrunk by nearly 200 miles in North America and Europe. Some studies also show that higher 
+tempratures alos led to higher illness transmission rates with the <a href="https://en.wikipedia.org/wiki/Nosema_ceranae" target="_blank">Nosema ceranae</a>
+being the biggest concern.</p>
+
+
+<br>
+<h1>
+    <div class="center">
+	<img id="Beechart" src="img\BeeChart.png" width="600" height="400">
+	</h1>
+	
+<br>
+<h2>Flies</h2>
+<p>Flies have had mixed reactions with Climate change and tempreatures chnaging. Some flies have developed what is called heat hardening 
+and have almost evolved to deal with heat slowly rising. This however leads to them struggling when it is cooler. On the other side, many 
+just can't handle the heat. Climate change has lead to many flies suffering what is called "heat death". This doesn't occur overnight 
+however, insects and flies in particular have nowhere to hide from Climate change. This leads to exposure to high heat over long periods 
+of time leading to the previously mentioned "heat death". </p>
+
+</html>

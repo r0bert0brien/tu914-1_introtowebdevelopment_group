@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Change - Global Carbon</title>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <h1>Climate Change</h1>
+</head>
+<body id="photo1">
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+<h2>Global Carbon</h2>
+<p> Carbon is one of the Earth's most significant elements. By transferring carbon between live things and the environment the carbon cycle supports every life. Plants absorb carbon dioxide and release oxygen (O2) during <a href="https://ssec.si.edu/stemvisions-blog/what-photosynthesis">photosynthesis.</a> When leaves fall and decompose or when plants die, the carbon that was stored in plants is released through respiration or combustion and transferred back to the atmosphere or to the soil.
+</p>
+<p> Across the globe, carbon is stored in different places and in different forms. The amount of carbon stored in a particular system is called a “stock” or a “pool”. The Earth’s largest carbon stock is found within the continental crusts and upper mantle of the Earth, a large portion of which is sedimentary rock formed over millions of years.
+</p>
+<h2>Global Carbon Issues:</h2>
+<p>The amount of carbon stored in the Earth’s atmosphere is miniscule compared to the amount stored in oceans, soils, and geologic formations. Small additions to the atmosphere over a long time have an enormous effect on the <a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/global-carbon-cycle">global carbon cycle.</a> Emissions from fossil fuel use and land use change have been increasing over the last three centuries and currently result in a net addition of approximately 9 GtC per year to the atmosphere.
+</p>
+<p>Homogeneity problems arise from the non-linear nature of climate change and sensitivity of emissions, which complicate attempts to calculate carbon offsets. Justice problems involve issues of dependency and the concentration of wealth among the rich, meaning carbon trading often counteracts attempts to reduce poverty. Homogenization in climate research means the removal of non-climatic changes.
+</p>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/science.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/carboncycle.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/carbon2.jpg" style="width:100%">
+  </div>
+<div class="mySlides fade">
+    <img src="img/co2.jpg" style="width:100%">
+  </div>
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+<h3>Climate Change Effects on Carbon:</h3>
+<p> Climate change is already having an impact on <b>ecosystems </b>across the world, and many of these changes are expected to continue or accelerate in the future. Opportunities to mitigate atmospheric <b>greenhouse gas emissions</b> is driving interest in managing carbon within ecosystems, highlighting the important role forests and grasslands play in sequestering CO2 and providing a source of <b>renewable energy.</b>
+</p>
+<p>Warmer temperatures and extreme weather have the potential to directly increase the frequency and severity of many types of disturbance, including drought, wildfire, and blowdown, as well as exacerbate pests, diseases, and other agents to further increase stress on ecosystems.
+</p>
+<p>It is unclear whether many forests will be able to maintain their ability to sequester carbon at current rates. In many parts of the country, reforestation and the succession of young forest to older age classes has been a fundamental source of carbon uptake, and this sink may not be as strong in the future.</p>
+    </body>
+</html>

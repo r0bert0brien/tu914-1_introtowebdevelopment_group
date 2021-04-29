@@ -1,0 +1,114 @@
+<html>
+<head>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <h1>Climate Change</h1>
+    </head>
+<body>
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+	
+	
+	<h1>Acid Rain</h1>
+	<h1>
+    <div class="center">
+	<img src="img\AcidRain3.jpg" width="600" height="400">
+	</h1>
+	
+	<br>
+	<h2>What is acid rain and what causes it</h2>
+	<p>Acid rain is caused by a chemical reaction that begins when compounds like sulfur 
+	dioxide and nitrogen oxides are released into the air. These substances can rise into the atmosphere,
+	where they mix with water, oxygen, and other chemicals to form more acidic substances, known as acid rain.
+	The main cause of acid rain is due to sulfur dioxide and nitrogen oxides being released. These mix with naturally
+	occuring gases and condense, creating acid rain.</p>
+	<br>
+	<h2>How climate change affects acid rain</h2>
+	<p>High tempratures accelerate chemical reactions, which leads to more acidic material being formed in general.
+	This will result in acid rain being washed in with seas and other bodies of water. Percipitation will also occurs faster,
+	due to changes in clouds from increased tempratures, which increases the amount of acid rain and rain in general.</p>
+	<br>
+	<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/Acidrain2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/Watercycle.jpg" style="width:100%">
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<h2>What does acid rain do</h2>
+<p>Acid rain takes aluminum from the soil which is needed for sustainibility. Acid rain also removes minerals and nutrients from the soil that trees need to grow. 
+That aluminum may be harmful to plants as well as animals. Animals can be affects by the their food being destroyed by acid rain or by being exposed to acid rain for 
+long periods of time. Acid rain can also damage buildings. Limestone structures are permeable so if acid rain enters the stone it corrodes and breaks. This is a huge 
+problem for many older buildings that would have been exposed for decades.
+ </p>
+</html>

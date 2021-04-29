@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Change</title>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <h1>Climate Change</h1>
+    </head>
+<body>
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+    
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/slideshow1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/slideshow2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/slideshow%203.jpg" style="width:100%">
+  </div>
+    
+     <div class="mySlides fade">
+    <img src="img/climate-change.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<h2 id="home">What is Climate Change?</h2>
+<p>The climate can be described as the average weather over a period of time.  Climate change means a significant change in the measures of climate, such as temperature, rainfall, or wind, lasting for an extended period – decades or longer. The Earth's climate has changed many times during the planet's history, with events ranging from ice ages to long periods of warmth.  What’s different about this period of the earth’s history is that human activities are significantly contdibuting to natural climate change through our emissions of greenhouse gases. This interference is resulting in increased air and ocean temperatures, drought, melting ice and snow, rising sea levels, increased rainfall, flooding and other influences.</p>
+<br>
+<h2>So What Causes Climate Change?</h2>
+<p>Climate change can result from natural processes and factors and more recently due to human activities through our emissions of greenhouse gases. Examples of natural factors include;</p>
+    <table>
+        <tr>
+    <td>- Changes in the sun's intensity.</td>
+        </tr>
+        <tr>
+    <td>- Volcanic eruptions, or slow changes in the Earth's orbit around the sun.</td>
+        </tr>
+        <tr>
+    <td>- Natural processes within the climate system such as changes in ocean current circulation</td>
+        </tr>
+       
+        </table>
+<p>However, the current global aim is to tackle climate change resulting from human activities whose greenhouse gas emissions are changing the composition of the earth’s atmosphere. The <a href="https://www.ipcc.ch/"Intergovernmental Panel on Climate Change (IPCC)></a> state that;</p>
+<p>‘Most of the observed increase in global average temperatures since the mid-20th century is very likely due to the observed increase in anthropogenic (produced by humans) greenhouse gas emissions’<br>
+Examples of human activities contributing to climate change include;</p>
+    <table>   
+    <tr>
+    <td>- Carbon dioxide emissions through burning fossil fuels such as coal, oil and gas and peat.</td>
+        </tr>
+        <tr>
+    <td>- Methane and nitrous oxide emissions from agriculture.</td>
+        </tr>
+        <tr>
+    <td>- Emissions through land use changes such as deforestation, reforestation, urbanization, desertification.</td>
+        </tr>
+        </table>
+    <p>These emissions that are changing the composition of the earths atmosphere are termed the Greenhouse effect. For the past 200 years, the burning of fossil fuels, such as coal and oil, and deforestation have caused the concentrations of heat-trapping greenhouse gases to increase significantly in our atmosphere. These gases prevent heat from escaping to space, somewhat like the glass panels of a greenhouse. The figure below from the IPCC explains greenhouse gases.</p>
+    </body>
+    </html>

@@ -1,0 +1,110 @@
+<html>
+<head>
+<link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <h1>Climate Change</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+
+<h2> Marine Life</h2>
+<div class="slideshow-container">
+
+<div class="mySlides ">
+
+  <img src=" https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/04/iStock-1170804921-1024x683.jpg?w=1155&h=2969" style="width:75%">
+
+</div>
+
+<div class="mySlides ">
+
+  <img src="https://e360.yale.edu/assets/site/Sharks_KAUST_web.jpg" style="width:75%">
+
+</div>
+
+<div class="mySlides ">
+
+  <img src="https://assets.climatecentral.org/images/made/3_9_17_Brian_GreenpeaceBleaching_1050_697_s_c1_c_c.jpg" style="width:75%">
+
+</div>
+    </div>
+
+<br>
+<div id="dots">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+    </div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000);
+}
+</script>
+<div style="text-align: left;">
+<h2> Oceans Heat Absorbtion</h2>
+<p>The ocean absorbs vast quantities of heat as a result of increased concentrations of greenhouse gases in the atmosphere, mainly from fossil fuel consumption. The Fifth Assessment Report published by the Intergovernmental Panel on Climate Change (IPCC) in 2013 revealed that the ocean had absorbed more than 93% of the excess heat from greenhouse gas emissions since the 1970s. This is causing ocean temperatures to rise.</p>
+<p>The ocean’s ability to absorb excess heat has shielded humans from even more rapid changes in climate. Without this oceanic buffer, global temperatures would have risen much more than they have done to date. IPCC’s Fourth Assessment Report published in 2007 estimated that the Earth had experienced a warming of 0.55°C since the 1970s. According to an analysis by the Grantham Institute, if the same amount of heat that has gone into the top 2,000 m of the ocean between 1955 and 2010 had gone into the lower 10 km of the atmosphere, the Earth would have seen a warming of 36°C.</p>
+<br>
+<h2> Marine Life</h2>
+<p> Marine fishes, seabirds and marine mammals all face very high risks from increasing temperatures, including high levels of mortalities, loss of breeding grounds and mass movements as species search for favourable environmental conditions. Coral reefs are also affected by increasing temperatures which cause coral bleaching and increase their risk of mortality.</p>
+<br>
+<h2> Coral Reefs</h2>
+<p>As temperatures rise, mass coral bleaching events and infectious disease outbreaks are becoming more frequent. Additionally, carbon dioxide absorbed into the ocean from the atmosphere has already begun to reduce calcification rates in reef-building and reef-associated organisms by altering seawater chemistry through decreases in pH. This process is called ocean acidification.</p>
+<p>Climate change will affect coral reef ecosystems, through sea level rise, changes to the frequency and intensity of tropical storms, and altered ocean circulation patterns. When combined, all of these impacts dramatically alter ecosystem function, as well as the goods and services coral reef ecosystems provide to people around the globe.</p>
+<br>
+
+
+    </div>
+
+
+</body>
+</html>

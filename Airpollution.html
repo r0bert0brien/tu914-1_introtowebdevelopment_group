@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Climate Change - Air Pollution</title>
+    <link rel="BebasNeue" href="https://use.typekit.net/xko5rlc.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <div class = 'container projects'>
+   <h1>Climate Change</h1>
+<div class="overlay"></div>
+</div>
+</head>
+<body id="test">
+<ul>
+    <li><a href="home.html">Home</a></li>
+     <li class="dropdown">
+    <a href="water.html" class="dropbtn">Weather</a>
+    <div class="dropdown-content">
+      <a href="water.html">Rising Water Levels</a>
+      <a href="watershortages.html">Water Shortages</a>
+      <a href="extremeWeather.html">Extreme Weather Effects</a>
+    <a href="AcidRain.html">Acid Rain</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="Wildlife.html" class="dropbtn">Wildlife</a>
+    <div class="dropdown-content">
+      <a href="Wildlife.html">Amazon Wildlife</a>
+      <a href="marineLife.html">Marine Life</a>
+      <a href="BLEACHING%20OF%20CORAL.HTML">The Coral Reef</a>
+        <a href="InsectsEffected.html">Effects on Insects</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="poles.html" class="dropbtn">The Atmosphere</a>
+    <div class="dropdown-content">
+        <a href="poles.html">North and South Poles</a>
+      <a href="Airpollution.html">Air Pollution</a>
+      <a href="Globalcarbon.html">Global Carbon</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="HowToStopCC.html" class="dropbtn">The Solution</a>
+  </li>
+    </ul>
+<br>
+<h2 id="airpolltuion">What is Air Pollution?</h2>
+<p>Air pollution is the presence in the air of substances that damage or cause damage to the climate and materials of people and other living beings.</p>
+<br>
+<h2>What Causes Air Pollution?</h2>
+<p>Solid and liquid particles and certain gases suspended in the air cause air pollution. Air pollution. The exhaust of cars and cars, factories, dust, pollen, mash spore, volcanoes or wildfires can produce these parts and gasses. Aerosols are called solid and liquid particles suspended in our air.</p>
+<br>
+<h2>What are the Effects of Air Pollution?</h2>
+<p>Includes heart disease, lung cancer and respiratory diseases such as emphysema. The long-term effect of air pollution on health. Long-term damage of nerves, brains, kidney, liver and other organs may also occur through air pollution. Some scientists suspect birth defects from air pollutants.
+    </p>
+    <br>
+    <div>
+        <center><img src="img/airpollution.jpg" width="800px"></center>
+    </div>
+<br>
+<h3>Greenhouse Gases</h3>
+<br>
+<p>A <a href="https://www.epa.gov/ghgemissions/overview-greenhouse-gases">greenhouse</a> gas is a gas that absorbs radiant energy in the thermal infrared range and produces the greenhouse effect. The Earth's principal greenhouse gases are water vapor, carbon, methane, oxide and ozone. Carbon dioxide, methane, nitrous and water vapor (all naturally occurring) and fluorinated gasses are the principal gases responsible for the greenhouse effect (which are synthetic). Greenhouse gasses have various chemical properties and different processes are removed from the atmosphere over time.
+</p>
+<h3>How to Reduce Air Pollution?</h3>
+<table>
+        <tr>
+            <td><b>1. Reducing Industrial Air Pollution</b></td>
+            <tr>
+            <td>- Pollutants are removed from the exhaust streams of power plants and industrial plants before they enter the atmosphere. Particulates can be filtered out, and sulphur and nitric oxides can be broken down by catalysts. Removing these oxides reduces the pollutants that cause acid rain.</td>
+    </tr>
+    <tr>
+            <td><b>2. Reducing Ozone Destruction</b></td>
+        </tr>
+      <tr>
+            <td>- One success story in reducing pollutants that harm the atmosphere concerns ozone-destroying chemicals. In 1973, scientists calculated that CFCs could reach the stratosphere and break apart. This would release chlorine atoms, which would then destroy ozone. 
+</td> 
+    </tr>
+    
+        <tr>
+            <td><b>3.  Reducing Greenhouse Gases</b></td>
+        </tr>
+     <tr>
+            <td>- Climate scientists agree that climate change is a global problem that must be attacked by a unified world with a single goal. All nations must come together to reduce greenhouse gas emissions. However, getting nations to agree on anything has proven to be difficult. A few ideas have been proposed and in some nations are being enacted.
+
+</td> 
+    </tr>
+    </table>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/ozone.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/industrial.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/greenhouse.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+    </body>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</html>
+
